@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.dch.core</groupId>
+        <artifactId>core-parent</artifactId>
+        <version>2.0.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+    <groupId>com.dch.eretail</groupId>
+    <artifactId>eretail-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>E-Retail Parent</name>
+
+    <developers>
+        <developer>
+            <id>davidch93</id>
+            <name>David Christianto</name>
+            <email>david.christianto1@gmail.com</email>
+        </developer>
+    </developers>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <modules>
+        <module>eretail-rest</module>
+        <module>eretail-ui</module>
+    </modules>
+</project>
+
