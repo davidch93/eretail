@@ -12,9 +12,27 @@
     <name>E-Retail Rest API</name>
 
     <dependencies>
+        <!-- Core -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>com.dch.core</groupId>
+            <artifactId>core-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.dch.core</groupId>
+            <artifactId>core-rest-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.dch.core</groupId>
+            <artifactId>core-service-jpa</artifactId>
+        </dependency>
+
+        <!-- Spring -->
+
+        <!-- MySQL connector -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 

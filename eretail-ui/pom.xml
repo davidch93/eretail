@@ -12,6 +12,13 @@
     <name>E-Retail Web UI</name>
 
     <dependencies>
+        <!-- Core -->
+        <dependency>
+            <groupId>com.dch.core</groupId>
+            <artifactId>core-common</artifactId>
+        </dependency>
+
+        <!-- Thymeleaf -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
